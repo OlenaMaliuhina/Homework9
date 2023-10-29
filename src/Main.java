@@ -22,7 +22,7 @@ public static void main(String[] args) {
         Move player2Move = player2.getMove();
 
         if (player1Move == player2Move) {
-        System.out.println("It's a tie!");
+        System.out.println("It's a tie! Nobody wins");
         } else if ((player1Move == Move.ROCK && player2Move == Move.SCISSORS) ||
         (player1Move == Move.PAPER && player2Move == Move.ROCK) ||
         (player1Move == Move.SCISSORS && player2Move == Move.PAPER)) {
